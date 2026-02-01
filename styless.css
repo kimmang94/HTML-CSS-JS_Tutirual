@@ -1,11 +1,12 @@
+body {
+    display: block;
+    position: relative;
+}
+
 h2 {
-    color : red;
-}
-
-#nickname {
-    font-size: 50px;
-}
-
-.helperText{
-    background-color: blue;
+    position: absolute;
+    top: 12px;
+    left:30px;
+    right: 50px;
+    bottom: 14px;
 }
