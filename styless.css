@@ -13,3 +13,34 @@ body {
     width: 420px;
     box-shadow: 0px 4px 14px rgba(0,0,0,0.2);
 }
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.inputGroup {
+    padding: 8px 12px;
+}
+
+.inputGroup label{
+    display: block;
+    padding: 12px 0px;
+}
+
+.inputGroup input {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    border: 2px solid #e2e2e2;
+}
+
+.inputGroup input:focus {
+    outline: none;
+    border-color: #888;
+}
+
+.valid input {
+    border-color:  green;
+}
+
