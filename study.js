@@ -40,3 +40,4 @@ let checkBoolean = true; // 불리언 (Boolean)
 // undefined가 되고 우리는 이 undefined 데이터 타입을 그냥 undefined 데이터 타입이라고 부른다
 // 5. 의도적으로 값이 비어있음을 표현할 때 이용하는 데이터타입이 있는데, null 타입
 // let nullValue = null; 
+
