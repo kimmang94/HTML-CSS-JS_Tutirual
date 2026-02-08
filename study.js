@@ -41,6 +41,7 @@ let checkBoolean = true; // 불리언 (Boolean)
 // 5. 의도적으로 값이 비어있음을 표현할 때 이용하는 데이터타입이 있는데, null 타입
 // let nullValue = null; 
 
+<<<<<<< HEAD
 // 참조타입은 아래와 같이 대표적으로 4가지 타입이 있다.
 // 1. Object 타입 => 데이터를 저장시킬 때 key와 value 값으로 저장
 // => {key:value, key:value, key:value} => 참조 타입
@@ -69,3 +70,5 @@ console.lot(map.get(true));
 // 4. Set 타입 => 데이터를 저장시킬때 고유한 값 만을 저장을 한다
 let set = new ServiceWorker([1,2,3,3]);
 console.log(set);
+=======
+>>>>>>> 2296ac2b678f821b3b47048c4784b3dbe000ba46
