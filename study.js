@@ -40,3 +40,32 @@ let checkBoolean = true; // 불리언 (Boolean)
 // undefined가 되고 우리는 이 undefined 데이터 타입을 그냥 undefined 데이터 타입이라고 부른다
 // 5. 의도적으로 값이 비어있음을 표현할 때 이용하는 데이터타입이 있는데, null 타입
 // let nullValue = null; 
+
+// 참조타입은 아래와 같이 대표적으로 4가지 타입이 있다.
+// 1. Object 타입 => 데이터를 저장시킬 때 key와 value 값으로 저장
+// => {key:value, key:value, key:value} => 참조 타입
+let obj = {
+    nickname : "Alice",
+    age : 25,
+    greet : true
+}
+
+console.log(obj.name); // Alice
+
+// 2. Array 타입(배열) => 데이터를 저장시킬때 순서가 있는 데이터 집합으로 저장
+// => [1,2,3,4,"블랙",true,false];
+//     0 1 2 3 4      5   6
+let arrayValue = [1,2,3,4, "블랙", true, false];
+
+console.log(arrayValue[4]); // 블랙
+
+// 3. Map 타입 => 데이터를 저장시킬때 key 와 value 값으로 저장
+// key 의 데이터 타입ㅇ 어떤것이든 상관 없음
+let map = new Map(); // map 이라는 이름을 가진 변수에 Map 타입의 기능을 저장 시켜라
+map.set(true,"참");
+map.set(1, "숫자1");
+console.lot(map.get(true));
+
+// 4. Set 타입 => 데이터를 저장시킬때 고유한 값 만을 저장을 한다
+let set = new ServiceWorker([1,2,3,3]);
+console.log(set);
