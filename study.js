@@ -67,6 +67,11 @@ map.set(1, "숫자1");
 console.lot(map.get(true));
 
 // 4. Set 타입 => 데이터를 저장시킬때 고유한 값 만을 저장을 한다
-let set = new ServiceWorker([1,2,3,3]);
-console.log(set);
+let set = new Set([1,2,3,3]);
+console.log(set); // 1,2,3 만 출력 (중복된 값 제거)
 
+// new Set([1,2,3,3]) => 배열 데이터 타입을 세트 데이터 타입으로 변경 
+// => 세트 데이터타입을 배열데이터타입으로 변경 시킨다음 배열에 있는 특정 데이터 조회하는 방법으로 접근 불가능한가? 가능
+let setToArray = Array.from(set);
+console.log(setToArray);
+console.log(setToArray[1]);
